@@ -1,0 +1,67 @@
+
+
+.top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px;
+    left: 10px;
+}
+.top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px;
+    left: 10px;
+}
+
+.page-loader {
+	background-color: #6825aa;
+}
+
+.thumbnail {
+    background-color: transparent;
+    height: 500px;   
+    background-size: cover; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 0 none;
+    box-shadow: none;
+}
+
+.btn .btn-pill .btn-shadow .btn-theme-2 {
+	position: absolute;
+	bottom: 5px;
+}
+
+#toTop{
+	position: fixed;
+	bottom: 95px;
+	right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+
+.back-to-top > i {
+  content: "";
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  width: 3px;
+}
+
+.btn-theme-2 {
+  border-color: #491a78;
+}
+
+.navbar-brand {
+  float: left;
+	padding:  0;
+  font-size: 18px;
+  line-height: 28px;
+  height: 64px;
+}
+
+.navbar-brand-media-img {
+	height:  50px;
+  margin: 5% 8%;	
+}

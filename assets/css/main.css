@@ -1,0 +1,185 @@
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+.employee-descrip {
+	font-size: 12px;
+}
+
+.top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px;
+    left: 10px;
+}
+.top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px;
+    left: 10px;
+}
+
+.page-loader {
+	background-color: #6825aa;
+}
+
+.thumbnail {
+    background-color: transparent;  
+    background-size: cover; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 0 none;
+    box-shadow: none;
+}
+
+.btn .btn-pill .btn-shadow .btn-theme-2 {
+	position: absolute;
+	bottom: 5px;
+}
+
+#toTop{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+
+.back-to-top > i {
+  content: "";
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  width: 3px;
+}
+
+.btn.btn-info {
+	background-color: #9c37ff;
+	border-color: #9c37ff;
+}
+
+.btn-info:focus, .btn-info.focus {
+  color: white;
+  background-color: #9c37ff;
+  border-color: #9c37ff;
+}
+.btn-info:hover {
+  color: white;
+  background-color: #9c37ff;
+  border-color: #9c37ff;
+}
+
+.btn-theme-2 {
+  border-color: #491a78;
+}
+
+.navbar-brand {
+  float: left;
+	
+ 
+}
+
+.navbar-brand-media-img {
+	height:  55px;
+	padding-top: -20px;
+    padding-right: 3px;
+	
+}
+
+@media (max-width: 350px) and (orientation: landscape) {
+   .navbar-media-img {
+    padding-top: -20px;
+    padding-right: 3px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-media-img {
+    padding-bottom: 20px;
+    padding-right: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand {
+    padding-bottom: 20px;
+    padding-right: 5px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-brand: {
+    padding-top: 20px;
+    padding-right: 5px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-brand: {
+    padding-top: 20px;
+    padding-right: 5px;
+  }
+}
+
+
+
+.li.icon {
+	max-width: 50px;
+}
+
+.badge {
+	background-color: transparent;
+	color: transparent;
+}
+
+.process-icon {
+	max-height: 128px;
+
+}
+
+.process-container {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+dt.contact-list-footer, dd.contact-list-footer { 
+	float: left;
+}
+dt.contact-list-footer { 
+	clear:both;
+	width:  10%;
+ }
+dl.contact-list-footer { overflow: hidden; }
+
+dt, dd {
+	float: left;
+}
+
+dt {
+	clear: both;
+	width: 16%;
+}

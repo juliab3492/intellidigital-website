@@ -1,0 +1,902 @@
+<!doctype html>
+<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9 | !IE]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>title</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="icon" href="../template/assets/img/favicon.ico">
+  <link rel="apple-touch-icon" href="../template/assets/img/apple-touch-icon.png">
+
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:400,500,600,700" rel="stylesheet">
+
+  <link rel='stylesheet' href='../template/assets/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='../template/assets/css/vendor.css'>
+  <link rel='stylesheet' href='assets/css/shCore.css'>
+  <link rel='stylesheet' href='assets/css/shCoreDefault.css'>
+
+  <!--
+    edit to
+    theme-1.css
+    theme-2.css
+    theme-3.css
+    theme-4.css
+    theme-5.css
+    theme-6.css
+    theme-7.css
+  -->
+  <link rel='stylesheet' href='../template/assets/css/theme-1.css' id="theme">
+  <script src="../template/assets/js/modernizr/modernizr.js"></script>
+</head>
+
+<style>
+  .doc-row {
+    margin-bottom: 56px;
+  }
+
+  .doc-row h2,
+  .doc-row h3 {
+    margin-bottom: 14px;
+  }
+  .syntaxhighlighter {
+    border: 1px solid #e5e5e5;
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+</style>
+
+<body>
+
+  <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <header id="page-header" class="page-header-fixed-top">
+    <nav class="page-navbar navbar-lg navbar navbar-static-top navbar-default page-navbar-from-light-fg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="custom-navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="#">
+            <img class="navbar-brand-media-img navbar-brand-media-img-dark" src="../template/assets/img/navbar-brand-media-img-dark.png" alt="">
+            <img class="navbar-brand-media-img navbar-brand-media-img-light" src="../template/assets/img/navbar-brand-media-img-light.png" alt="">
+          </a>
+        </div> <!-- .navbar-header -->
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown">Base <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#docGettingStart">Getting started</a></li>
+                <li><a href="#docFileStructure">File structure</a></li>
+                <li><a href="#docColorPalette">Color palette</a></li>
+                <li><a href="#iconFont">Icon font</a></li>
+                <li><a href="#docPageNavbar">Page Navbar</a></li>
+                <li><a href="#docPageIntro">Page intro</a></li>
+                <li><a href="#docAnimation">Animation</a></li>
+                <li><a href="#docCountdown">Countdown</a></li>
+                <li><a href="#docPopupYoutube">Popup Youtube</a></li>
+                <li><a href="#docPopupInline">Popup Inline</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown">Template Variant <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#docBgAudio">Bg audio</a></li>
+                <li><a href="#docPageIntroBgImg">Page intro bg image</a></li>
+                <li><a href="#docPageIntroBgPatternImg">Page intro bg pattern image</a></li>
+                <li><a href="#docPageIntroBgOverlay">Page intro bg overlay</a></li>
+                <li><a href="#docPageIntroBgAnimatedGradient">Page intro bg animated gradient</a></li>
+                <li><a href="#docPageIntroBgSlideshow">Page intro bg slideshow</a></li>
+                <li><a href="#docPageIntroBgYoutube">Page intro bg youtube</a></li>
+                <li><a href="#docPageIntroBgParticle">Page intro bg particle</a></li>
+                <li><a href="#docPageIntroBgStar">Page intro bg star</a></li>
+                <li><a href="#docPageIntroBgSnow">Page intro bg snow</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown">Form <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#docSubscribeForm">Subscribe form</a></li>
+              </ul>
+            </li>
+            <li><a href="#docUtilityClass">Utility class</a></li>
+            <li><a href="#docFaq">FAQ</a></li>
+            <li><a href="#docSupport">Support</a></li>
+            <li><a href="#docCredit">Credit</a></li>
+            <li><a href="#docHistory">History</a></li>
+          </ul>
+        </div> <!-- .navbar-collapse -->
+      </div>
+    </nav>
+  </header> <!-- #page-header -->
+
+  <div class="page-intro page-intro-sm __layout-1 align-outer bg-theme-1" id="pageIntro">
+    <div class="align-inner align-middle">
+      <div class="container">
+        <div class="page-intro-row row">
+          <div class="page-intro-left-col col-md-8">
+            <h1 class="section-title">
+              Documentation by bonefishcode.com
+            </h1>
+
+            <p class="text-lead">We're the perfect balance of design & development. Let's build the websites that builds your business.</p>
+
+            <p class="btn-wrap">
+              <a class="btn btn-pill btn-theme-2" href="http://bonefishcode.com/" target="_blank"><i class="icon icon-left fa fa-life-ring"></i> Support</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- .page-intro -->
+
+  <div class="page-section module">
+    <div class="container">
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docGettingStart">Getting started</h2>
+
+          <p>Choose a demo to getting started, rename that <code>index-*.html</code> to <code>index.html</code>, upload template file to web hosting.</p>
+
+          <div class="alert alert-warning">
+            Alway place customize style at <code>assets/css/custom.css</code>.
+          </div>
+
+          <div class="alert alert-danger">
+            Template <code>bootstrap.min.css</code> has customized, do NOT replace it with cdn.
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docFileStructure">File structure</h2>
+          <pre>
+/template/
+  index-*.html - template html
+
+  /assets/
+    /audio/
+      bg-audio-1.mp3 - bg audio file
+
+    /img/
+      navbar-brand-media-img-dark.png   - dark text logo
+      navbar-brand-media-img-light.png  - light text logo
+
+      /about-us/
+        about-us-signature.png          - #aboutUs section signature image
+
+      /feature/
+        feature-icon-*.png              - #feature section icon
+        feature-media.png               - #feature section media image, for layout-3
+        feature-mobile-*.png            - #feature section mobile image, for layout-1, layout-2
+
+      /mobile-wireframe/
+        mobile-wireframe-*.png          - mobile wireframe
+
+      /page-intro/
+        page-intro-bg-img.jpg                   - #pageIntro bg image
+        page-intro-bg-slideshow-*.jpg           - #pageIntro slideshow image
+        page-intro-bg-youtube-fallback.jpg      - youtube fallback image, mobile do not support this function, show this image on mobile
+        page-intro-bg-youtube-placeholder.jpg   - youtube plaveholder image, show this image when the video not start yet
+        page-intro-mobile-carousel-screen-*.jpg - #pageIntro mobile carousel image
+        page-intro-bg-img-pattern.png           - #pageIntro section background pattern image
+        page-intro-media.png                    - #pageIntro section media image for layout 3
+
+      /service/
+        service-icon-*.png              - #service section icon
+
+      /subscribe/
+        subscribe-icon.png              - subscribe icon
+
+    /php/
+      subscribe.php - mailchimp subscribe form
+          </pre>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docColorPalette">Color palette</h2>
+
+            <p>Open <code>index.html</code> find below code and edit the css name.</p>
+
+            <pre class="brush: html">
+<!--
+  edit to
+  theme-1.css
+  theme-2.css
+  theme-3.css
+  theme-4.css
+  theme-5.css
+  theme-6.css
+  theme-7.css
+-->
+<link rel='stylesheet' href='assets/css/theme-1.css' id="theme">
+            </pre>
+
+          <div class="alert alert-info">
+            Template button use <code>btn-theme-1</code> and <code>btn-theme-2</code> class to control color, you may still use Bootstrap button class to control it.
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docIconFont">Iconfont</h2>
+
+          <p>Template use Font Awesome, here is the <A href="http://fontawesome.io/icons/" target="_blank">icon list</a>.</p>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docPageNavbar">Page Navbar</h2>
+
+          <h3>Navbar logo</h3>
+
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>navbar logo image</th>
+                <th>height</th>
+                <th>note</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th><code>assets/img/navbar-brand-media-img-dark.png</code></th>
+                <td>18px</td>
+                <td>dark text logo</td>
+              </tr>
+              <tr>
+                <th><code>assets/img/navbar-brand-media-img-dark.png</code></th>
+                <td>18px</td>
+                <td>light text logo</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Navbar style</h3>
+
+          <p>Template has light or dark style and two size, we can control it by below class.</p>
+
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>class name</th>
+                <th>add to</th>
+                <th>effect</th>
+                <th>note</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th><code>navbar-default</code></th>
+                <td><code>#pageNavbar</code></td>
+                <td>enable default style navbar</td>
+                <td>n/a</td>
+              </tr>
+
+              <tr>
+                <th><code>navbar-inverse</code></th>
+                <td><code>#pageNavbar</code></td>
+                <td>enable inverse style navbar</td>
+                <td>n/a</td>
+              </tr>
+
+              <tr>
+                <th><code>page-navbar-from-light-fg</code></th>
+                <td><code>#pageNavbar</code></td>
+                <td>enable transparent background and light text page-navbar before the page scroll</td>
+                <td>use this class when <code>#pageIntro</code> is dark style</td>
+              </tr>
+
+              <tr>
+                <th><code>page-navbar-from-dark-fg</code></th>
+                <td><code>#pageNavbar</code></td>
+                <td>enable transparent background and dark text page-navbar before the page scroll</td>
+                <td>use this class when <code>#pageIntro</code> is light style</td>
+              </tr>
+
+              <tr>
+                <th><code>navbar-lg</code></th>
+                <td><code>#pageNavbar</code></td>
+                <td>enable large page-navbar</td>
+                <td>use default size by remove this class from <code>#pageNavbar</code></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docPageIntro">Page Intro</h2>
+
+          <h3>Page intro size</h3>
+
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>class name</th>
+                <th>add to</th>
+                <th>effect</th>
+                <th>group</th>
+                <th>note</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th><code>page-intro-sm</code></th>
+                <td><code>#pageIntro</code></td>
+                <td>enable small size <code>#pageIntro</code></td>
+                <td>page-intro-size</td>
+                <td>n/a</td>
+              </tr>
+
+              <tr>
+                <th><code>page-intro-lg</code></th>
+                <td><code>#pageIntro</code></td>
+                <td>enable large size <code>#pageIntro</code></td>
+                <td>page-intro-size</td>
+                <td>n/a</td>
+              </tr>
+
+              <tr>
+                <th><code>page-intro-hero</code></th>
+                <td><code>#pageIntro</code></td>
+                <td>enable hero size <code>#pageIntro</code></td>
+                <td>page-intro-size</td>
+                <td>n/a</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="alert alert-info">
+            If no page intro option class added, page intro will use default size.
+          </div>
+
+          <h3>Page intro style</h3>
+
+          <p>Use <a href="docUtilityClass">utility class</a> to control <code>#pageIntro</code> background color and text color, for example</p>
+          <h4>Theme 1 background color and auto text change.</h4>
+          <pre class="brush: html">
+<div id="pageIntro" class="page-intro __layout-1 align-outer bg-theme-1">...</div>
+          </pre>
+
+          <h4>White background color and auto text change.</h4>
+          <pre class="brush: html">
+<div id="pageIntro" class="page-intro __layout-1 align-outer bg-white">...</div>
+          </pre>
+
+          <h4>Red background color and white text.</h4>
+          <pre class="brush: html">
+<div id="pageIntro" class="page-intro __layout-1 align-outer bg-danger">...</div>
+          </pre>
+
+          <h4>transparent background color and default text.</h4>
+          <pre class="brush: html">
+<div id="pageIntro" class="page-intro __layout-1 align-outer color-default">...</div>
+          </pre>
+
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docAnimation">Animation</h2>
+
+          <p>Style a animation element with <a href="https://github.com/matthieua/WOW">wow.js</a> plugin, here is some example.</p>
+          <pre class="brush: html">
+<div class="wow fadeInUpShort">this element fade in from up with 750ms duration time</div>
+<div class="wow fadeInLeft" data-wow-delay="200ms">this element fade in from left and have a 200ms delay time</div>
+          </pre>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docCountdown">Countdown</h2>
+
+          <b>HTML markup</b>
+          <pre class="brush: html">
+<div class="page-intro-countdown countdown wow fadeInUpShort" data-wow-delay="200ms" data-countdown-date="2021/01/31">
+  <div class="countdown-row row">
+    <div class="countdown-col countdown-day col-xs-6 col-sm-3">
+      <div class="countdown-digit">--</div>
+      <div class="countdown-unit">Day</div>
+    </div>
+
+    <div class="countdown-col countdown-hour col-xs-6 col-sm-3">
+      <div class="countdown-digit">--</div>
+      <div class="countdown-unit">Hour</div>
+    </div>
+
+    <div class="countdown-col countdown-minute col-xs-6 col-sm-3">
+      <div class="countdown-digit">--</div>
+      <div class="countdown-unit">Minute</div>
+    </div>
+
+    <div class="countdown-col countdown-second col-xs-6 col-sm-3">
+      <div class="countdown-digit">--</div>
+      <div class="countdown-unit">Second</div>
+    </div>
+  </div>
+</div>
+          </pre>
+
+          <div class="alert alert-info">
+            Use <code>data-countdown-date</code> to control countdown date.
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docPopupYoutube">Popup Youtube</h2>
+
+          <b>HTML markup</b>
+          <pre class="brush: html">
+<a class="btn btn-default popup-youtube" href="#" data-mfp-src="https://www.youtube.com/watch?v=LViVa-kKqzA"><i class="icon icon-left fa fa-play"></i> Watch Video</a>
+          </pre>
+
+          <div class="alert alert-info">
+            Add <code>popup-youtube</code> class to button.
+          </div>
+
+          <div class="alert alert-info">
+            Use <code>data-mfp-src</code> to control youtube video url.
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docPopupYoutube">Popup Inline</h2>
+
+          <b>HTML markup (button)</b>
+          <pre class="brush: html">
+<a href="#" class="popup-inline" data-mfp-src="#termsAndConditions">Terms and Conditions</a>
+          </pre>
+
+          <div class="alert alert-info">
+            Add <code>popup-inline</code> class to button.
+          </div>
+
+          <div class="alert alert-info">
+            Use <code>data-mfp-src</code> to control popup id.
+          </div>
+
+          <b>HTML markup (popup)</b>
+          <pre class="brush: html">
+<div id="termsAndConditions" class="popup-doc mfp-hide">
+  <h2>Terms and Conditions (demo)</h2>
+  <br>
+  <p>some text</p>
+  <p>some text</p>
+  <p>some text</p>
+  <p>some text</p>
+  <p>some text</p>
+  <p>some text</p>
+</div> <!-- #termsAndConditions -->
+          </pre>
+
+          <div class="alert alert-info">
+            Use the id as <code>data-mfp-src</code>.
+          </div>
+
+          <div class="alert alert-info">
+            Add <code>mfp-hide</code> class to hide the popup before open.
+          </div>
+
+          <div class="alert alert-info">
+            <code>popup-doc</code> class is options.
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docBgAudio">Bg audio</h2>
+
+          <b>HTML markup</b>
+          <pre class="brush: html">
+<audio id="1bgAudioPlayer" loop>
+  <source src="assets/audio/bg-audio-1.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+          </pre>
+
+          <div class="alert alert-info">
+            Put mp3 file at <code>assets/audio/bg-audio-1.mp3</code>.
+          </div>
+
+          <div class="alert alert-info">
+            Background audio wont autoplay on mobile, we need click the audio toggle to play it.
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docPageIntroBgImg">Page intro bg image</h2>
+
+          <b>HTML markup</b>
+          <pre class="brush: html">
+<div class="bg-img bg-no-repeat bg-center bg-cover" data-css-background-image="assets/img/page-intro/page-intro-bg-img.jpg"></div>
+          </pre>
+
+          <div class="alert alert-info">
+            Use <code>data-css-background-image</code> to edit the background image url.
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docPageIntroBgPatternImg">Page intro bg pattern image</h2>
+
+          <b>HTML markup</b>
+          <pre class="brush: html">
+<div class="bg-img bg-center" data-css-background-image="assets/img/page-intro/page-intro-bg-img-pattern.jpg"></div>
+          </pre>
+
+          <div class="alert alert-info">
+            Use <code>data-css-background-image</code> to edit the background image url.
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docPageIntroBgOverlay">Page intro bg overlay</h2>
+
+          <b>HTML markup</b>
+          <pre class="brush: html">
+<div class="bg-overlay bg-black" data-css-opacity=".5"></div>
+          </pre>
+
+          <div class="alert alert-info">
+            Use <b><a href="#docUtilityClass">bg utility class</a></b> to control the background color.
+          </div>
+
+          <div class="alert alert-info">
+            Use <code>data-css-opacity</code> to control the opacity.
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docPageIntroBgAnimatedGradient">Page intro bg animated gradient</h2>
+
+          <b>HTML markup</b>
+          <pre class="brush: html">
+<div class="bg-animated-gradient" data-css-opacity=".8"></div>
+          </pre>
+
+          <div class="alert alert-info">
+            Use <code>data-css-opacity</code> to control the background opacity.
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docPageIntroBgSlideshow">Page intro bg slideshow</h2>
+
+          <b>HTML markup</b>
+          <pre class="brush: html">
+<div class="bg-slideshow" data-slideshow-img-src="assets/img/page-intro/page-intro-bg-slideshow-%.jpg" data-slideshow-img-amount="3"></div>
+          </pre>
+
+          <div class="alert alert-info">
+            Use <code>data-slideshow-img-src</code> and <code>data-slideshow-img-amount</code> to control the image url and number, % mean the number, for example above code will use 3 slideshow image at
+            <p>
+              assets/img/page-intro/page-intro-bg-slideshow-1.jpg
+              <br>
+              assets/img/page-intro/page-intro-bg-slideshow-2.jpg
+              <br>
+              assets/img/page-intro/page-intro-bg-slideshow-3.jpg
+            </p>
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docPageIntroBgYoutube">Page intro bg youtube</h2>
+
+          <b>HTML markup</b>
+          <pre class="brush: html">
+<div class="bg-youtube">
+  <div class="bg-youtube-fallback bg-no-repeat bg-center bg-cover" data-css-background-image-mobile="assets/img/page-intro/page-intro-bg-youtube-fallback.jpg"></div>
+  <div class="bg-youtube-placeholder bg-no-repeat bg-center bg-cover" data-css-background-image-desktop="assets/img/page-intro/page-intro-bg-youtube-placeholder.jpg"></div>
+  <div class="bg-youtube-player"
+  data-property="{
+    videoURL:'https://www.youtube.com/watch?v=LViVa-kKqzA',
+    startAt: 0,
+    stopAt: 0,
+    autoPlay: true,
+    mute: false,
+    showControls: true,
+    quality: 'highres',
+    stopMovieOnBlur: false,
+    playlistURL: null,
+    containment:'self',
+    showYTLogo: false
+  }">
+  </div>
+</div>
+          </pre>
+
+          <p>Change the <code>videoURL</code> and other setting, For more setting info, please view the <a href="https://github.com/pupunzi/jquery.mb.YTPlayer" target="_blank">plugin page</a>.</p>
+
+          <h4>Fallback and Placeholder image.</h4>
+
+          <pre class="brush: html">
+            assets/img/page-intro/page-intro-bg-youtube-fallback.jpg    - mobile do not support this function, show this image on mobile.
+            assets/img/page-intro/page-intro-bg-youtube-placeholder.jpg - show this image when the video not start yet.
+          </pre>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docPageIntroBgParticle">Page intro bg particle</h2>
+
+          <b>HTML markup</b>
+          <pre class="brush: html">
+<div id="bgParticle" data-css-opacity="1"></div>
+          </pre>
+
+          <div class="alert alert-info">
+            Use <code>data-css-opacity</code> to control the opacity.
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docPageIntroBgStar">Page intro bg star</h2>
+
+          <b>HTML markup</b>
+          <pre class="brush: html">
+<div id="bgStar" data-css-opacity="1"></div>
+          </pre>
+
+          <div class="alert alert-info">
+            Use <code>data-css-opacity</code> to control the opacity.
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docPageIntroBgSnow">Page intro bg snow</h2>
+
+          <b>HTML markup</b>
+          <pre class="brush: html">
+<div id="bgSnow" data-css-opacity="1"></div>
+          </pre>
+
+          <div class="alert alert-info">
+            Use <code>data-css-opacity</code> to control the opacity.
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docSubscribeForm">Subscribe form</h2>
+
+          <p>Open <code>assets/php/subscribe.php</code>, find below code and change the setting.</p>
+          <pre class="brush: php">
+// your mailchimp api key - http://admin.mailchimp.com/account/api/
+$apikey = '1234512345-us10';
+
+// your mailchimp list id - http://admin.mailchimp.com/lists/
+$id     = 'abcde12345';
+          </pre>
+
+          <div class="alert alert-warning">
+            Please test the function at the web hosting and confirm the web hosting is support PHP.
+          </div>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docUtilityClass">Utility class</h2>
+
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>class name</th>
+                <th>effect</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>
+                  <code>bg-theme-1</code>
+                  <br>
+                  <code>bg-theme-2</code>
+                  <br>
+                  <code>bg-primary</code>
+                  <br>
+                  <code>bg-info</code>
+                  <br>
+                  <code>bg-success</code>
+                  <br>
+                  <code>bg-warning</code>
+                  <br>
+                  <code>bg-black</code>
+                  <br>
+                  <code>bg-white</code>
+                </th>
+                <td>change background color and auto change the text color</td>
+              </tr>
+
+              <tr>
+                <th>
+                  <code>color-theme-1</code>
+                  <br>
+                  <code>color-theme-2</code>
+                  <br>
+                  <code>color-primary</code>
+                  <br>
+                  <code>color-info</code>
+                  <br>
+                  <code>color-success</code>
+                  <br>
+                  <code>color-warning</code>
+                  <br>
+                  <code>color-defaultt</code>
+                  <br>
+                  <code>color-white</code>
+                </th>
+                <td>change text color</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docFaq">FAQ</h2>
+
+          <h4><b>Q:</b> n/a</h4>
+          <p><b>A:</b> n/a</p>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docSupport">Support</h2>
+
+          <p>Cant get the template working? Feel free to <a href="http://bonefishcode.com/" target="_blank">Contact me</a> for the template support, please note that i have not do any customize job, thank you so much. :)</p>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docCredit">Credit</h2>
+
+            <p>All image / audio / video / media are NOT included. Please view below link for more info.</p>
+
+            <ul>
+              <li><h4>Youtube (NOT included)</h4></li>
+              <li>https://www.youtube.com/watch?v=LViVa-kKqzA</li>
+              <li>https://www.youtube.com/watch?v=3h4DYaTkUXw</li>
+              <li>https://www.youtube.com/watch?v=60pKC1k2rZA</li>
+            </ul>
+
+            <ul>
+              <li><h4>Image (NOT included)</h4></li>
+              <li>https://unsplash.com/</li>
+              <li>https://stocksnap.io/</li>
+              <li>https://pixabay.com/</li>
+            </ul>
+
+            <ul>
+              <li><h4>Image (NOT included)</h4></li>
+              <li>logo - http://www.freepik.com/free-vector/infinite-logo_798107.htm</li>
+              <li>icon - http://www.flaticon.com/packs/design-thinking</li>
+              <li>icon - http://www.freepik.com/free-vector/web-icons-on-an-orange-background_950563.htm</li>
+              <li>banner - http://www.freepik.com/free-vector/banners-with-business-elements-in-flat-design_884246.htm</li>
+              <li>App screen - https://www.invisionapp.com/tethr</li>
+            </ul>
+
+            <ul>
+              <li><h4>Image (NOT included)</h4></li>
+              <li>Simple mobile wireframe - http://bonefishcode.com/</li>
+            </ul>
+
+            <ul>
+              <li><h4>Plugin</h4></li>
+              <li>Bootstrap v3.3.7 (customized) - https://github.com/twbs/bootstrap</li>
+              <li>Font-Awesome - https://github.com/FortAwesome/Font-Awesome</li>
+              <li>jQuery - https://github.com/jquery/jquery</li>
+              <li>jQuery.countdown - https://github.com/hilios/jQuery.countdown</li>
+              <li>WOW.js - https://github.com/matthieua/WOW</li>
+              <li>Animate.css - https://github.com/daneden/animate.css/</li>
+              <li>slick - https://github.com/kenwheeler/slick</li>
+              <li>Magnific-Popup - https://github.com/dimsemenov/Magnific-Popup</li>
+              <li>device.js - https://github.com/matthewhudson/device.js</li>
+              <li>velocity.js - https://github.com/julianshapiro/velocity</li>
+              <li>jquery-validation - https://github.com/jzaefferer/jquery-validation</li>
+              <li>YTPlayer - https://github.com/pupunzi/jquery.mb.YTPlayer</li>
+              <li>particles.js - https://github.com/VincentGarreau/particles.js/</li>
+              <li>vegas - https://github.com/jaysalvat/vegas</li>
+            </ul>
+        </div>
+      </div> <!-- .doc-row -->
+
+      <div class="doc-row row">
+        <div class="col-xs-12">
+          <h2 id="docHistory">History</h2>
+          <h4>Version 1.0 - 2017/01/12</h4>
+          <pre>
+Initial release</pre>
+        </div>
+      </div> <!-- .doc-row -->
+    </div>
+  </div>
+  <!-- /Content -->
+
+  <!-- script -->
+  <script src="../template/assets/js/jquery/jquery.1.12.4.min.js"></script>
+  <script src="../template/assets/js/bootstrap/bootstrap.min.js"></script>
+  <script src="../template/assets/js/vendor.js"></script>
+  <script src='assets/js/XRegExp.js'></script>
+  <script src='assets/js/shCore.js'></script>
+  <script src='assets/js/shBrushCss.js'></script>
+  <script src='assets/js/shBrushJScript.js'></script>
+  <script src='assets/js/shBrushPhp.js'></script>
+  <script src='assets/js/shBrushXml.js'></script>
+  <script>
+    var target = '.page-navbar';
+    var offset = $(target).find('.navbar-header').outerHeight() + 1;
+
+    $('body').scrollspy({
+      target: target,
+      offset: parseInt(offset)
+    });
+
+    SyntaxHighlighter.defaults['tab-size'] = 2;
+    SyntaxHighlighter.all();
+  </script>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <!--
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+  </script>
+  -->
+  <!-- /script -->
+
+
+</body>
+</html>
